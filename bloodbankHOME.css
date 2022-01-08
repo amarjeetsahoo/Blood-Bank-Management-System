@@ -1,0 +1,84 @@
+body {
+    background-color:grey;
+}
+
+#header {
+    width: 100%;
+    background-color: aquamarine;
+}
+
+#btn {
+    background-color: black;
+	color:white;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+}
+
+#ohead {
+    color: red;
+    font-family: Good Times;
+    margin:20px;
+    font-size: 20;
+    text-align: center;
+}
+
+#intro {
+    background-image: url(http://localhost/img/Bl.jpg);
+    background-size: 100% 100%;
+    height: 550px;
+}
+
+#blood_logo {
+    height: 100;
+    width: 100;    
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#intro_right {
+    float: right;
+    margin-right:500px;
+    margin-top: 400px;
+    font-family: Good Times;
+}
+
+#msg {
+    background-color: darkred;
+    height: 800px;
+
+}
+
+#p_msg,#vision,#about,#about1 {
+    float: left;
+    margin: 10px;
+    padding-left: 25px;
+    padding-right: 5px;
+    background-color: azure;
+    font-family:Oxygen;
+}
+
+#img_sec {
+    background-color: rgb(241, 162, 87);
+}
+#img_sec1 {
+    background-color: red;
+}
+
+#img {
+    margin: 20px;
+    width: 600px;
+    height: 300px;
+}
+
+#footer {
+    background-color: rgb(34, 32, 32);
+    padding: 30px;
+}
+
+#contact {
+    font-family:Oxygen;
+    color: azure;
+    padding-left: 100px;
+    text-align: center;
+}

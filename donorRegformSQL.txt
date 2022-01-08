@@ -1,0 +1,15 @@
+create table donorlist(email varchar(50) not null primary key,dn varchar(20),gender varchar(6),blood varchar(6),pass varchar(10),mob int,dob date);
+
+desc donorlist;
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| email  | varchar(50) | NO   | PRI | NULL    |       |
+| dn     | varchar(20) | YES  |     | NULL    |       |
+| gender | varchar(6)  | YES  |     | NULL    |       |
+| blood  | varchar(6)  | YES  |     | NULL    |       |
+| pass   | varchar(10) | YES  |     | NULL    |       |
+| mob    | int(11)     | YES  |     | NULL    |       |
+| dob    | date        | YES  |     | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+7 rows in set (0.00 sec)

@@ -1,0 +1,55 @@
+<html>
+<head>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("http://localhost/IMG/q1.JPG");
+  height: 95%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: lime;
+  text-align: center;
+  cursor: pointer;
+}
+.hero-text button:hover {
+  background-color: indigo;
+  color: cyan;
+}
+</style>
+</head>
+<body bgcolor="E0FFFF">
+
+<div class="hero-image">
+  <div class="hero-text">
+  	<form method=post action=delReceiverList.php>
+
+<h1 align=center><font color= aquamarine>Enter Receiver's Email-Id:</font></h1>
+<p align=center><input type=text name=t1 placeholder=example@gmail.com required></p>
+<p align=center><button type="submit" value="submit">SUBMIT</button></p>
+</form>
+</div>
+</div>
+</body>
+</html>

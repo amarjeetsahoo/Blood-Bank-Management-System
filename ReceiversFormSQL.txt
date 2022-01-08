@@ -1,0 +1,1 @@
+create table reqform(email varchar(50) not null primary key,rn varchar(20),gender varchar(6),blood varchar(6),age int,mob int,reqdate date);
